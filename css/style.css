@@ -1,0 +1,109 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+#nav
+{
+    /* display: flex; */
+    /* width:1200px;  */
+    display: flex;
+}
+#nav li{
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    /* justify-content: space-between; */
+    /* margin-left:25px; */
+    margin-right: 10px;
+    margin-top: 3px;
+
+}
+#oleft
+{
+    width:300px; 
+    float:left;
+}
+#ocenter
+{
+     width:600px; 
+    float: left;
+    margin-left: 100px;
+    align-items: center;
+}
+#oright
+{
+     width:400px;
+    float: right;
+}
+#oright ul li
+{
+    margin-left:10px;
+}
+#search
+{
+    border: 1px solid black;
+    border-radius:20px;
+    width:300px;
+    text-align: center;
+}
+#search button
+{
+    margin-left:-20px;
+}
+#two
+{
+    width:1200px;
+    height:500px;
+}
+#tleft
+{
+    width:200px;
+    height: 500px;
+    /* background-color: blue; */
+    float: left;
+}
+#tleft ul li
+{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+#tleft ul li i{
+    color:grey;
+    padding-right: 10px;
+}
+#tleft ul li span
+{
+    padding-right: 10px;
+    color:grey;
+}
+#tleft ul li a{
+    text-decoration: none;
+    color: black;
+}
+#tright
+{
+    /* width:700px; */
+    /* height:500px; */
+    background-color: yellowgreen;
+    float: right;
+}
+.scroll::-webkit-scrollbar
+{
+    display: none;
+}
+.bl
+{
+    list-style-type:none;
+    /* margin-right: 10px;
+    margin-top: 3px;
+    margin-bottom: 30px; */
+
+}
+.bl a
+{
+    text-decoration: none;
+    color: black;
+}
